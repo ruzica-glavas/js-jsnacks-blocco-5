@@ -7,6 +7,12 @@ const people = [
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
-const name = people.map(element => element.name)
+const name = people.map((element) => {
+  
+  
+  return element.name
+
+
+})
 
 console.log(name)
